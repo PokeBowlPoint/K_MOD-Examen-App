@@ -1,0 +1,234 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorBackgroundDark"
+    tools:context=".activity2">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:minHeight="?attr/actionBarSize"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:titleTextColor="@android:color/white"
+        android:background="?attr/colorPrimary"
+        tools:ignore="MissingConstraints">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:id="@+id/icon_menu"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_alignParentRight="true"
+                android:src="@drawable/icon_menu"
+                android:paddingRight="10dp" />
+
+            <ImageView
+                android:id="@+id/icon_account"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_toLeftOf="@id/icon_menu"
+                android:src="@drawable/icon_account"
+                android:paddingRight="10dp" />
+
+        </RelativeLayout>
+    </androidx.appcompat.widget.Toolbar>
+
+    <FrameLayout
+        android:id="@+id/frameLayout"
+        android:layout_width="0dp"
+        android:layout_height="600dp"
+        android:layout_marginStart="40dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="72dp"
+        android:layout_marginEnd="41dp"
+        android:layout_marginRight="41dp"
+        android:addStatesFromChildren="false"
+        android:background="@drawable/layout_view"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TableLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TableRow>
+                    <ImageView
+                        android:layout_width="125dp"
+                        android:layout_height="125dp"
+                        android:layout_gravity="top"
+                        android:layout_margin="35px"
+                        android:src="@drawable/avocado"/>
+
+                    <TextView
+                        android:id="@+id/samenstellen_txt2"
+                        android:layout_width="125dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:layout_margin="35px"
+                        android:text="Samenstellen"
+                        android:textSize="20dp"/>
+                </TableRow>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Kies je eigen Toppings"
+                    android:textSize="25sp"
+                    android:gravity="center"
+                    android:padding="50px"/>
+
+                <TableRow
+                    android:paddingTop="15px">
+                    <CheckBox
+                        android:id="@+id/check1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:enabled="false"
+                        android:layout_gravity="center"
+                        android:textSize="20dp"/>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:text="Soja boontjes"
+                        android:enabled="false"
+                        android:textSize="20dp"
+                        android:layout_gravity="start"/>
+                </TableRow>
+                <TableRow
+                    android:paddingTop="15px">
+                    <CheckBox
+                        android:id="@+id/check2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:enabled="false"
+                        android:layout_gravity="center"
+                        android:textSize="20dp"/>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:text="Komkommer"
+                        android:enabled="false"
+                        android:textSize="20dp"
+                        android:layout_gravity="start"/>
+                </TableRow>
+                <TableRow
+                    android:paddingTop="15px">
+                    <CheckBox
+                        android:id="@+id/check3"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:enabled="false"
+                        android:textSize="20dp"/>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:text="Geraspte wortel"
+                        android:enabled="false"
+                        android:textSize="20dp"
+                        android:layout_gravity="start"/>
+                </TableRow>
+                <TableRow
+                    android:paddingTop="15px">
+                    <CheckBox
+                        android:id="@+id/check4"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:enabled="false"
+                        android:textSize="20dp"/>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:text="Gekookte bietjes"
+                        android:enabled="false"
+                        android:textSize="20dp"
+                        android:layout_gravity="start"/>
+                </TableRow>
+                <TableRow
+                    android:paddingTop="15px">
+                    <CheckBox
+                        android:id="@+id/check5"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:enabled="false"
+                        android:textSize="20dp"/>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:text="Rode kool"
+                        android:enabled="false"
+                        android:textSize="20dp"
+                        android:layout_gravity="start"/>
+                </TableRow>
+                <TableRow
+                    android:paddingTop="15px">
+                    <CheckBox
+                        android:id="@+id/check6"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:textSize="20dp"/>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:text="Avocado"
+                        android:textSize="20dp"
+                        android:layout_gravity="start"/>
+                </TableRow>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="76dp"
+                    android:gravity="center">
+
+                    <Button
+                        android:id="@+id/button_terug4"
+                        android:layout_width="150dp"
+                        android:layout_height="150px"
+                        android:layout_margin="10px"
+                        android:layout_marginBottom="100px"
+                        android:background="@drawable/button_style"
+                        android:hint="Terug"
+                        android:textColorHint="#FFF"
+                        android:textSize="20sp" />
+
+                    <Button
+                        android:id="@+id/button_bestellen1"
+                        android:layout_width="150dp"
+                        android:layout_height="150px"
+                        android:layout_margin="10px"
+                        android:layout_marginBottom="100px"
+                        android:background="@drawable/button_style"
+                        android:hint="Bestellen"
+                        android:textColorHint="#FFF"
+                        android:textSize="20sp" />
+                </LinearLayout>
+            </TableLayout>
+        </RelativeLayout>
+
+
+
+    </FrameLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

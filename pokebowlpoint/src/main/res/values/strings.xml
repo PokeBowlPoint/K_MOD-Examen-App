@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Pokebowls</string>
+    <string name="config_product">SAMENSTELLEN</string>
+    <string name="shopping_cart">WINKELWAGEN</string>
+    <string name="Home_txt1">PokeBowl</string>
+    <string name="Home_txt2">Creëer je eigen Pokebowl met onze app.</string>
+
+    <string name="Samenstellen_txt1">Samenstellen</string>
+</resources>

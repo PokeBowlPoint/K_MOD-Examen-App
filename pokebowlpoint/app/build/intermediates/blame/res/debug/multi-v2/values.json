@@ -1,0 +1,62 @@
+{
+    "logs": [
+        {
+            "outputFile": "C:\\Users\\Sam\\Desktop\\pokebowlpoint\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values\\values.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\Sam\\Desktop\\pokebowlpoint\\app\\src\\main\\res\\values\\styles.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "53",
+                        "endLines": "7",
+                        "endColumns": "12",
+                        "endOffsets": "365"
+                    },
+                    "to": {
+                        "startLines": "15",
+                        "startColumns": "4",
+                        "startOffsets": "733",
+                        "endLines": "20",
+                        "endColumns": "12",
+                        "endOffsets": "1045"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\Sam\\Desktop\\pokebowlpoint\\app\\src\\main\\res\\values\\strings.xml",
+                    "from": {
+                        "startLines": "4,5,7,1,2,3",
+                        "startColumns": "4,4,4,4,4,4",
+                        "startOffsets": "173,220,298,16,63,119",
+                        "endColumns": "46,76,58,46,55,53",
+                        "endOffsets": "215,292,352,58,114,168"
+                    },
+                    "to": {
+                        "startLines": "9,10,11,12,13,14",
+                        "startColumns": "4,4,4,4,4,4",
+                        "startOffsets": "393,440,517,576,623,679",
+                        "endColumns": "46,76,58,46,55,53",
+                        "endOffsets": "435,512,571,618,674,728"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\Sam\\Desktop\\pokebowlpoint\\app\\src\\main\\res\\values\\colors.xml",
+                    "from": {
+                        "startLines": "4,5,6,7,2,3,8",
+                        "startColumns": "4,4,4,4,4,4,4",
+                        "startOffsets": "153,199,249,299,55,102,353",
+                        "endColumns": "45,49,49,53,46,50,39",
+                        "endOffsets": "194,244,294,348,97,148,388"
+                    },
+                    "to": {
+                        "startLines": "2,3,4,5,6,7,8",
+                        "startColumns": "4,4,4,4,4,4,4",
+                        "startOffsets": "55,101,151,201,255,302,353",
+                        "endColumns": "45,49,49,53,46,50,39",
+                        "endOffsets": "96,146,196,250,297,348,388"
+                    }
+                }
+            ]
+        }
+    ]
+}

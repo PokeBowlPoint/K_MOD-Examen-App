@@ -1,0 +1,4 @@
+#Fri Jul 03 09:14:20 CEST 2020
+base.0=C\:\\Users\\Sam\\Desktop\\PokebowlApp\\app\\build\\intermediates\\dex\\debug\\mergeDexDebug\\classes.dex
+path.0=classes.dex
+renamed.0=classes.dex

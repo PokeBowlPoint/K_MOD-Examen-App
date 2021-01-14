@@ -95,7 +95,6 @@
                         android:id="@+id/check1"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:enabled="false"
                         android:layout_gravity="center"
                         android:textSize="20dp"/>
 
@@ -103,7 +102,6 @@
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
                         android:text="Tonijn"
-                        android:enabled="false"
                         android:textSize="20dp"
                         android:layout_gravity="start"/>
                 </TableRow>
@@ -130,14 +128,12 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_gravity="center"
-                        android:enabled="false"
                         android:textSize="20dp"/>
 
                     <TextView
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
                         android:text="Garnalen"
-                        android:enabled="false"
                         android:textSize="20dp"
                         android:layout_gravity="start"/>
                 </TableRow>
@@ -148,14 +144,12 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_gravity="center"
-                        android:enabled="false"
                         android:textSize="20dp"/>
 
                     <TextView
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
                         android:text="Tofu"
-                        android:enabled="false"
                         android:textSize="20dp"
                         android:layout_gravity="start"/>
                 </TableRow>
@@ -165,7 +159,6 @@
                         android:id="@+id/check5"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:enabled="false"
                         android:layout_gravity="center"
                         android:textSize="20dp"/>
 
@@ -173,7 +166,6 @@
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
                         android:text="Kip"
-                        android:enabled="false"
                         android:textSize="20dp"
                         android:layout_gravity="start"/>
                 </TableRow>

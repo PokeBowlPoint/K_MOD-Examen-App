@@ -61,57 +61,20 @@
             android:layout_height="wrap_content"
             android:textAlignment="center"
             android:layout_margin="35px"
-            android:text="Samengestelde ingrediënten:"
+            android:text="Winkelwagen"
             android:textSize="20dp"
             android:gravity="center_horizontal"
             android:layout_gravity="center_horizontal"/>
-
-        <TextView
-            android:layout_width="285dp"
-            android:layout_height="wrap_content"
-            android:layout_gravity="center_horizontal"
-            android:layout_margin="215px"
-            android:gravity="left"
-            android:text="- Kokos Rijst"
-            android:textSize="20dp" />
-
-        <TextView
-            android:layout_width="285dp"
-            android:layout_height="wrap_content"
-            android:layout_gravity="center_horizontal"
-            android:layout_margin="335px"
-            android:gravity="left"
-            android:text="- Zalm"
-            android:textSize="20dp" />
-
-        <TextView
-            android:layout_width="285dp"
-            android:layout_height="wrap_content"
-            android:layout_gravity="center_horizontal"
-            android:layout_margin="455px"
-            android:gravity="left"
-            android:text="- Wasabi mayonaise"
-            android:textSize="20dp" />
-
-        <TextView
-            android:layout_width="285dp"
-            android:layout_height="wrap_content"
-            android:layout_gravity="center_horizontal"
-            android:layout_margin="575px"
-            android:gravity="left"
-            android:text="- Avocado"
-            android:textSize="20dp" />
 
         <TextView
             android:id="@+id/winkelwagen_txt2"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_margin="35px"
-            android:text="Totaal:                               €10,50"
+            android:text="Totaal:"
             android:textSize="20dp"
             android:gravity="left"
             android:layout_gravity="bottom" />
-
 
     </FrameLayout>
 

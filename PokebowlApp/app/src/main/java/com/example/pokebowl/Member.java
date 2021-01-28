@@ -1,66 +1,77 @@
 package com.example.pokebowl;
 
 public class Member {
-    private String Day1;
-    private String Day2;
-    private String Day3;
-    private String Day4;
-    private String Day5;
-    private String Day6;
-    private String Day7;
+    private String Dish1;
+    private String Dish2;
+    private String Dish3;
+    private String Dish4;
+    private String Dish5;
+    private String Dish6;
+    private String Dish7;
 
-    public Member(){}
 
-    public String getDay1() {
-        return Day1;
+    public Member() {
     }
 
-    public void setDay1(String day1) {
-        Day1 = day1;
+    public String getDish1() {
+        return Dish1;
     }
 
-    public String getDay2() {
-        return Day2;
+    public void setDish1(String dish1) {
+        Dish1 = dish1;
     }
 
-    public void setDay2(String day2) {
-        Day2 = day2;
+    public String getDish2() {
+        return Dish2;
     }
 
-    public String getDay3() {
-        return Day3;
+    public void setDish2(String dish2) {
+        Dish2 = dish2;
     }
 
-    public void setDay3(String day3) {
-        Day3 = day3;
+    public String getDish3() {
+        return Dish3;
     }
 
-    public String getDay4() {
-        return Day4;
+    public void setDish3(String dish3) {
+        Dish3 = dish3;
     }
 
-    public void setDay4(String day4) {
-        Day4 = day4;
+    public String getDish4() {
+        return Dish4;
     }
 
-    public String getDay5() {
-        return Day5;
+    public void setDish4(String dish4) {
+        Dish4 = dish4;
     }
 
-    public void setDay5(String day5) {
-        Day5 = day5;
+
+    public String getDish5() {
+        return Dish5;
     }
 
-    public String getDay6() {
-        return Day6;
+
+    public void setDish5(String dish5) {
+        Dish5 = dish5;
     }
 
-    public void setDay6(String day6) {
-        Day6 = day6;
+
+    public String getDish6() {
+        return Dish6;
     }
 
-    public String getDay7() {
-        return Day7;
+
+    public void setDish6(String dish6) {
+        Dish6 = dish6;
     }
 
-    public void setDay7(String day7) { Day7 = day7; }}
+
+    public String getDish7() {
+        return Dish7;
+    }
+
+
+    public void setDish7(String dish7) {
+        Dish7 = dish7;
+    }
+}

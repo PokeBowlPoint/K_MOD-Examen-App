@@ -56,7 +56,7 @@
         app:layout_constraintTop_toTopOf="parent">
 
         <TextView
-            android:id="@+id/winkelwagen_txt"
+            android:id="@+id/winkelwagenleeg_txt"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:textAlignment="center"
@@ -67,14 +67,15 @@
             android:layout_gravity="center_horizontal"/>
 
         <TextView
-            android:id="@+id/winkelwagen_txt2"
-            android:layout_width="match_parent"
+            android:layout_width="285dp"
             android:layout_height="wrap_content"
-            android:layout_margin="35px"
-            android:text="Totaal:                               €10,50"
-            android:textSize="20dp"
-            android:gravity="left"
-            android:layout_gravity="bottom" />
+            android:layout_gravity="center_horizontal"
+            android:layout_margin="215px"
+            android:gravity="center"
+            android:text="U heeft nog niets gekozen."
+            android:textSize="20dp" />
+
+
 
 
     </FrameLayout>
@@ -95,6 +96,7 @@
             android:hint="Bestelling afronden"
             android:textSize="20sp"
             android:layout_gravity="center"
+            android:enabled="false"
             android:layout_marginTop="50px"
             android:textColorHint="#FFF"/>
     </LinearLayout>

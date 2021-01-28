@@ -4,6 +4,7 @@ import androidx.appcompat.app.AppCompatActivity;
 import android.os.Bundle;
 import android.content.Intent;
 import kotlinx.android.synthetic.main.activity_main.*
+import kotlinx.android.synthetic.main.activity_winkelwagenleeg.*
 
 class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -17,7 +18,7 @@ class MainActivity : AppCompatActivity() {
         }
 
         button2.setOnClickListener {
-            val intent = Intent(this, winkelwagen::class.java)
+            val intent = Intent(this, winkelwagenleeg::class.java)
             // start your next activity
             startActivity(intent)
         }

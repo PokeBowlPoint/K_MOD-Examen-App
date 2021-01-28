@@ -92,9 +92,10 @@
                 <TableRow
                     android:paddingTop="15px">
                     <CheckBox
-                        android:id="@+id/check1"
+                        android:id="@+id/check11"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
+                        android:enabled="false"
                         android:layout_gravity="center"
                         android:textSize="20dp"/>
 
@@ -102,15 +103,17 @@
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
                         android:text="Soja boontjes"
+                        android:enabled="false"
                         android:textSize="20dp"
                         android:layout_gravity="start"/>
                 </TableRow>
                 <TableRow
                     android:paddingTop="15px">
                     <CheckBox
-                        android:id="@+id/check2"
+                        android:id="@+id/check12"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
+                        android:enabled="false"
                         android:layout_gravity="center"
                         android:textSize="20dp"/>
 
@@ -118,54 +121,61 @@
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
                         android:text="Komkommer"
+                        android:enabled="false"
                         android:textSize="20dp"
                         android:layout_gravity="start"/>
                 </TableRow>
                 <TableRow
                     android:paddingTop="15px">
                     <CheckBox
-                        android:id="@+id/check3"
+                        android:id="@+id/check13"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_gravity="center"
+                        android:enabled="false"
                         android:textSize="20dp"/>
 
                     <TextView
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
                         android:text="Geraspte wortel"
+                        android:enabled="false"
                         android:textSize="20dp"
                         android:layout_gravity="start"/>
                 </TableRow>
                 <TableRow
                     android:paddingTop="15px">
                     <CheckBox
-                        android:id="@+id/check4"
+                        android:id="@+id/check14"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_gravity="center"
+                        android:enabled="false"
                         android:textSize="20dp"/>
 
                     <TextView
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
                         android:text="Gekookte bietjes"
+                        android:enabled="false"
                         android:textSize="20dp"
                         android:layout_gravity="start"/>
                 </TableRow>
                 <TableRow
                     android:paddingTop="15px">
                     <CheckBox
-                        android:id="@+id/check5"
+                        android:id="@+id/check15"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_gravity="center"
+                        android:enabled="false"
                         android:textSize="20dp"/>
 
                     <TextView
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
                         android:text="Rode kool"
+                        android:enabled="false"
                         android:textSize="20dp"
                         android:layout_gravity="start"/>
                 </TableRow>

@@ -91,67 +91,63 @@
 
                 <TableRow
                     android:paddingTop="15px">
+
                     <CheckBox
-                        android:id="@+id/check1"
+                        android:id="@+id/check11"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_gravity="center"
-                        android:textSize="20dp"/>
+                        android:checked="false"
+                        android:clickable="true"
+                        android:enabled="true"
+                        android:focusable="true"
+                        android:text="Bruine rijst"
+                        android:textSize="20dp" />
 
-                    <TextView
-                        android:layout_width="match_parent"
-                        android:layout_height="match_parent"
-                        android:text="Bruine Rijst"
-                        android:textSize="20dp"
-                        android:layout_gravity="start"/>
                 </TableRow>
                 <TableRow
                     android:paddingTop="15px">
+
                     <CheckBox
-                        android:id="@+id/check2"
+                        android:id="@+id/check12"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_gravity="center"
-                        android:textSize="20dp"/>
-
-                    <TextView
-                        android:layout_width="match_parent"
-                        android:layout_height="match_parent"
+                        android:checked="false"
+                        android:clickable="true"
                         android:text="Kokos Rijst"
-                        android:textSize="20dp"
-                        android:layout_gravity="start"/>
+                        android:textSize="20dp" />
+
                 </TableRow>
                 <TableRow
                     android:paddingTop="15px">
+
                     <CheckBox
-                        android:id="@+id/check3"
+                        android:id="@+id/check13"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_gravity="center"
-                        android:textSize="20dp"/>
-
-                    <TextView
-                        android:layout_width="match_parent"
-                        android:layout_height="match_parent"
+                        android:checked="false"
+                        android:clickable="true"
+                        android:enabled="true"
                         android:text="Jasmijn Rijst"
-                        android:textSize="20dp"
-                        android:layout_gravity="start"/>
+                        android:textSize="20dp" />
+
                 </TableRow>
                 <TableRow
                     android:paddingTop="15px">
+
                     <CheckBox
-                        android:id="@+id/check4"
+                        android:id="@+id/check14"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_gravity="center"
-                        android:textSize="20dp"/>
-
-                    <TextView
-                        android:layout_width="match_parent"
-                        android:layout_height="match_parent"
+                        android:checked="false"
+                        android:clickable="true"
+                        android:enabled="true"
                         android:text="Sushi Rijst"
-                        android:textSize="20dp"
-                        android:layout_gravity="start"/>
+                        android:textSize="20dp" />
+
                 </TableRow>
 
                 <LinearLayout
@@ -174,14 +170,16 @@
                         android:id="@+id/button_verder1"
                         android:layout_width="150dp"
                         android:layout_height="150px"
-                        android:layout_margin="10px"
-                        android:layout_marginBottom="50px"
+                        android:layout_marginTop="10px"
+                        android:layout_marginBottom="10px"
                         android:background="@drawable/button_style"
                         android:hint="Verder"
                         android:textColorHint="#FFF"
                         android:textSize="20sp" />
+
                 </LinearLayout>
             </TableLayout>
+
         </RelativeLayout>
 
 

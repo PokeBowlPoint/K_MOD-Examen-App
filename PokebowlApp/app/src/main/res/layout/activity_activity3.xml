@@ -91,83 +91,73 @@
 
                 <TableRow
                     android:paddingTop="15px">
+
                     <CheckBox
-                        android:id="@+id/check1"
+                        android:id="@+id/check11"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_gravity="center"
-                        android:textSize="20dp"/>
-
-                    <TextView
-                        android:layout_width="match_parent"
-                        android:layout_height="match_parent"
+                        android:enabled="true"
                         android:text="Tonijn"
-                        android:textSize="20dp"
-                        android:layout_gravity="start"/>
+                        android:textSize="20dp" />
+
                 </TableRow>
                 <TableRow
                     android:paddingTop="15px">
+
                     <CheckBox
-                        android:id="@+id/check2"
+                        android:id="@+id/check12"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_gravity="center"
-                        android:textSize="20dp"/>
-
-                    <TextView
-                        android:layout_width="match_parent"
-                        android:layout_height="match_parent"
+                        android:clickable="true"
+                        android:enabled="true"
                         android:text="Zalm"
-                        android:textSize="20dp"
-                        android:layout_gravity="start"/>
+                        android:textSize="20dp" />
+
                 </TableRow>
                 <TableRow
                     android:paddingTop="15px">
+
                     <CheckBox
-                        android:id="@+id/check3"
+                        android:id="@+id/check13"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_gravity="center"
-                        android:textSize="20dp"/>
-
-                    <TextView
-                        android:layout_width="match_parent"
-                        android:layout_height="match_parent"
+                        android:clickable="true"
+                        android:enabled="true"
                         android:text="Garnalen"
-                        android:textSize="20dp"
-                        android:layout_gravity="start"/>
+                        android:textSize="20dp" />
+
                 </TableRow>
                 <TableRow
                     android:paddingTop="15px">
+
                     <CheckBox
-                        android:id="@+id/check4"
+                        android:id="@+id/check14"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_gravity="center"
-                        android:textSize="20dp"/>
-
-                    <TextView
-                        android:layout_width="match_parent"
-                        android:layout_height="match_parent"
+                        android:checked="false"
+                        android:clickable="true"
+                        android:enabled="true"
                         android:text="Tofu"
-                        android:textSize="20dp"
-                        android:layout_gravity="start"/>
+                        android:textSize="20dp" />
+
                 </TableRow>
                 <TableRow
                     android:paddingTop="15px">
+
                     <CheckBox
-                        android:id="@+id/check5"
+                        android:id="@+id/check15"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_gravity="center"
-                        android:textSize="20dp"/>
-
-                    <TextView
-                        android:layout_width="match_parent"
-                        android:layout_height="match_parent"
+                        android:clickable="true"
+                        android:enabled="true"
                         android:text="Kip"
-                        android:textSize="20dp"
-                        android:layout_gravity="start"/>
+                        android:textSize="20dp" />
+
                 </TableRow>
 
                 <LinearLayout

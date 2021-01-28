@@ -16,6 +16,27 @@
         android:background="?attr/colorPrimary"
         tools:ignore="MissingConstraints">
 
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:id="@+id/icon_menu"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_alignParentRight="true"
+                android:src="@drawable/icon_menu"
+                android:paddingRight="10dp" />
+
+            <ImageView
+                android:id="@+id/icon_account"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_toLeftOf="@id/icon_menu"
+                android:src="@drawable/icon_account"
+                android:paddingRight="10dp" />
+
+        </RelativeLayout>
     </androidx.appcompat.widget.Toolbar>
 
     <Button
@@ -53,91 +74,51 @@
         app:layout_constraintStart_toStartOf="parent"
         android:textColorHint="#FFF"/>
 
-    <RelativeLayout
-        android:layout_height="match_parent"
+    <FrameLayout
+        android:id="@+id/frameLayout"
+        android:layout_width="0dp"
+        android:layout_height="300dp"
+        android:layout_marginStart="40dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="40dp"
+        android:layout_marginEnd="41dp"
+        android:layout_marginRight="41dp"
+        android:layout_marginBottom="40dp"
+        android:addStatesFromChildren="false"
         android:background="@drawable/layout_view"
+        app:layout_constraintBottom_toTopOf="@+id/button1"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
-        android:layout_width="match_parent">
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.701">
+
 
         <ImageView
-            android:id="@+id/top-image"
-            android:layout_width="350dp"
+            android:layout_width="150dp"
             android:layout_height="150dp"
-            android:layout_centerHorizontal="true"
-            android:layout_marginTop="80dp"
-            android:src="@drawable/presetbowl"></ImageView>
+            android:layout_gravity="center"
+            android:src="@drawable/pokebowl">
+        </ImageView>
 
-        <ImageView
-            android:id="@+id/bottom-image"
-            android:layout_width="350dp"
-            android:layout_height="150dp"
-            android:layout_centerHorizontal="true"
-            android:layout_marginTop="210dp"
-            android:src="@drawable/buildbowl"></ImageView>
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal|top"
+            android:hint="@string/Home_txt1"
+            android:padding="20px"
+            android:textAlignment="center"
+            android:textSize="28sp" />
 
-    </RelativeLayout>
-
-    <RelativeLayout
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        tools:ignore="MissingConstraints">
-
-
-        <ImageView
-            android:id="@+id/user-icon"
-            android:layout_width="50dp"
-            android:layout_height="50dp"
-            android:layout_centerHorizontal="true"
-            android:layout_marginTop="400dp"
-            android:src="@drawable/usericon"></ImageView>
-
-        <ImageView
-            android:id="@+id/home-icon"
-            android:layout_width="50dp"
-            android:layout_height="50dp"
-            android:layout_centerHorizontal="false"
-            android:layout_marginTop="400dp"
-            android:layout_marginLeft="40dp"
-            android:src="@drawable/homeicon"></ImageView>
-
-        <ImageView
-            android:id="@+id/cart-icon"
-            android:layout_width="50dp"
-            android:layout_height="50dp"
-            android:layout_centerHorizontal="false"
-            android:layout_marginTop="400dp"
-            android:layout_marginLeft="320dp"
-            android:src="@drawable/carticon"></ImageView>
-
-
-
-    </RelativeLayout>
-
-    <RelativeLayout
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        tools:layout_editor_absoluteX="17dp"
-        tools:ignore="MissingConstraints"
-        android:background="@drawable/header_style">
-
-        <ImageView
-            android:id="@+id/icon_menu"
-            android:layout_width="50dp"
-            android:layout_height="50dp"
-            android:layout_alignParentRight="true"
-            android:paddingRight="10dp"
-            android:layout_marginTop="6dp"
-            android:layout_marginBottom="6dp"
-            android:src="@drawable/icon_menu" />
-
-        <ImageView
-            android:layout_width="120dp"
-            android:layout_height="50dp"
-            android:layout_marginTop="6dp"
-            android:layout_marginBottom="6dp"
-            android:src="@drawable/pokebowlpointlogo"></ImageView>
-
-    </RelativeLayout>
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="220dp"
+            android:layout_height="62dp"
+            android:layout_gravity="center_horizontal|bottom"
+            android:hint="@string/Home_txt2"
+            android:textAlignment="center"
+            android:textSize="20sp" />
+    </FrameLayout>
 
 </androidx.constraintlayout.widget.ConstraintLayout>

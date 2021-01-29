@@ -91,55 +91,43 @@
 
                 <TableRow
                     android:paddingTop="15px">
+
                     <CheckBox
-                        android:id="@+id/check11"
+                        android:id="@+id/check21"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_gravity="center"
-                        android:textSize="20dp"/>
-
-                    <TextView
-                        android:layout_width="match_parent"
-                        android:layout_height="match_parent"
                         android:text="Wasabi mayonaise"
-                        android:textSize="20dp"
-                        android:layout_gravity="start"/>
+                        android:textSize="20dp" />
+
                 </TableRow>
                 <TableRow
                     android:paddingTop="15px">
+
                     <CheckBox
-                        android:id="@+id/check12"
+                        android:id="@+id/check22"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:enabled="false"
                         android:layout_gravity="center"
-                        android:textSize="20dp"/>
-
-                    <TextView
-                        android:layout_width="match_parent"
-                        android:layout_height="match_parent"
+                        android:clickable="true"
+                        android:enabled="true"
                         android:text="Sojasaus"
-                        android:enabled="false"
-                        android:textSize="20dp"
-                        android:layout_gravity="start"/>
+                        android:textSize="20dp" />
+
                 </TableRow>
                 <TableRow
                     android:paddingTop="15px">
+
                     <CheckBox
-                        android:id="@+id/check13"
+                        android:id="@+id/check23"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:enabled="false"
                         android:layout_gravity="center"
-                        android:textSize="20dp"/>
-
-                    <TextView
-                        android:layout_width="match_parent"
-                        android:layout_height="match_parent"
+                        android:clickable="true"
+                        android:enabled="true"
                         android:text="Sesam olie"
-                        android:enabled="false"
-                        android:textSize="20dp"
-                        android:layout_gravity="start"/>
+                        android:textSize="20dp" />
+
                 </TableRow>
 
                 <LinearLayout

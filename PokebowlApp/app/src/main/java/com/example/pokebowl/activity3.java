@@ -24,23 +24,18 @@ public class activity3 extends AppCompatActivity {
 
             startActivity(intent);
         });
-
         button.setOnClickListener(v -> {
-            CheckBox checkbox = (CheckBox) findViewById(R.id.check12);
-            if (checkbox.isChecked()) {
-                isChecked = String.valueOf(checkbox.getText());
+            CheckBox checkbox21 = (CheckBox) findViewById(R.id.check21);
+            if (checkbox21.isChecked()) {
+                isChecked = String.valueOf(checkbox21.getText());
             }
-            CheckBox checkbox2 = (CheckBox) findViewById(R.id.check11);
-            if (checkbox2.isChecked()) {
-                isChecked = String.valueOf(checkbox2.getText());
+            CheckBox checkbox22 = (CheckBox) findViewById(R.id.check22);
+            if (checkbox22.isChecked()) {
+                isChecked = String.valueOf(checkbox22.getText());
             }
-            CheckBox checkbox3 = (CheckBox) findViewById(R.id.check13);
-            if (checkbox3.isChecked()) {
-                isChecked = String.valueOf(checkbox3.getText());
-            }
-            CheckBox checkbox4 = (CheckBox) findViewById(R.id.check14);
-            if (checkbox4.isChecked()) {
-                isChecked = String.valueOf(checkbox4.getText());
+            CheckBox checkbox23 = (CheckBox) findViewById(R.id.check23);
+            if (checkbox23.isChecked()) {
+                isChecked = String.valueOf(checkbox23.getText());
             }
             SharedPreferences pref = getApplicationContext().getSharedPreferences("MyPref", 0);
             SharedPreferences.Editor editor = pref.edit();

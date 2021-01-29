@@ -20,15 +20,15 @@ public class activity2 extends AppCompatActivity {
 
 
         button.setOnClickListener(v -> {
-            CheckBox checkbox = (CheckBox) findViewById(R.id.check11);
+            CheckBox checkbox = (CheckBox) findViewById(R.id.check21);
             if (checkbox.isChecked()) {
                 isChecked = String.valueOf(checkbox.getText());
             }
-            CheckBox checkbox2 = (CheckBox) findViewById(R.id.check12);
+            CheckBox checkbox2 = (CheckBox) findViewById(R.id.check22);
             if (checkbox2.isChecked()) {
                 isChecked = String.valueOf(checkbox2.getText());
             }
-            CheckBox checkbox3 = (CheckBox) findViewById(R.id.check13);
+            CheckBox checkbox3 = (CheckBox) findViewById(R.id.check23);
             if (checkbox3.isChecked()) {
                 isChecked = String.valueOf(checkbox3.getText());
             }

@@ -93,7 +93,7 @@
                     android:paddingTop="15px">
 
                     <CheckBox
-                        android:id="@+id/check11"
+                        android:id="@+id/check21"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_gravity="center"
@@ -106,7 +106,7 @@
                     android:paddingTop="15px">
 
                     <CheckBox
-                        android:id="@+id/check12"
+                        android:id="@+id/check22"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_gravity="center"
@@ -120,7 +120,7 @@
                     android:paddingTop="15px">
 
                     <CheckBox
-                        android:id="@+id/check13"
+                        android:id="@+id/check23"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_gravity="center"

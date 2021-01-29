@@ -19,25 +19,21 @@ public class activity2 extends AppCompatActivity {
         Button button = findViewById(R.id.button_verder1);
 
         button.setOnClickListener(v -> {
-            CheckBox checkbox = (CheckBox) findViewById(R.id.check21);
+            CheckBox checkbox = (CheckBox) findViewById(R.id.check1);
             if (checkbox.isChecked()) {
                 isChecked = String.valueOf(checkbox.getText());
             }
-            CheckBox checkbox2 = (CheckBox) findViewById(R.id.check22);
+            CheckBox checkbox2 = (CheckBox) findViewById(R.id.check2);
             if (checkbox2.isChecked()) {
                 isChecked = String.valueOf(checkbox2.getText());
             }
-            CheckBox checkbox3 = (CheckBox) findViewById(R.id.check23);
+            CheckBox checkbox3 = (CheckBox) findViewById(R.id.check3);
             if (checkbox3.isChecked()) {
                 isChecked = String.valueOf(checkbox3.getText());
             }
-            CheckBox checkbox4 = (CheckBox) findViewById(R.id.check14);
+            CheckBox checkbox4 = (CheckBox) findViewById(R.id.check4);
             if (checkbox4.isChecked()) {
                 isChecked = String.valueOf(checkbox4.getText());
-            }
-            CheckBox checkbox5 = (CheckBox) findViewById(R.id.check15);
-            if (checkbox5.isChecked()) {
-                isChecked = String.valueOf(checkbox5.getText());
             }
             SharedPreferences pref = getApplicationContext().getSharedPreferences("MyPref", 0);
             SharedPreferences.Editor editor = pref.edit();

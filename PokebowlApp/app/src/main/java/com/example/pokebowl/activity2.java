@@ -18,7 +18,6 @@ public class activity2 extends AppCompatActivity {
 
         Button button = findViewById(R.id.button_verder1);
 
-
         button.setOnClickListener(v -> {
             CheckBox checkbox = (CheckBox) findViewById(R.id.check21);
             if (checkbox.isChecked()) {
@@ -51,9 +50,17 @@ public class activity2 extends AppCompatActivity {
             startActivity(intent);
         });
 
+        button = findViewById(R.id.button_verder1);
+
+        button.setOnClickListener(v -> {
+
+            Intent intent = new Intent(this, activity3.class);
+
+            startActivity(intent);
+        });
+
 
         button = findViewById(R.id.button_terug1);
-
 
         button.setOnClickListener(v -> {
 

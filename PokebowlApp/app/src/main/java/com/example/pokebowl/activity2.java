@@ -19,19 +19,19 @@ public class activity2 extends AppCompatActivity {
         Button button = findViewById(R.id.button_verder1);
 
         button.setOnClickListener(v -> {
-            CheckBox checkbox = (CheckBox) findViewById(R.id.check11);
+            CheckBox checkbox = (CheckBox) findViewById(R.id.check41);
             if (checkbox.isChecked()) {
                 isChecked = String.valueOf(checkbox.getText());
             }
-            CheckBox checkbox2 = (CheckBox) findViewById(R.id.check12);
+            CheckBox checkbox2 = (CheckBox) findViewById(R.id.check42);
             if (checkbox2.isChecked()) {
                 isChecked = String.valueOf(checkbox2.getText());
             }
-            CheckBox checkbox3 = (CheckBox) findViewById(R.id.check13);
+            CheckBox checkbox3 = (CheckBox) findViewById(R.id.check43);
             if (checkbox3.isChecked()) {
                 isChecked = String.valueOf(checkbox3.getText());
             }
-            CheckBox checkbox4 = (CheckBox) findViewById(R.id.check14);
+            CheckBox checkbox4 = (CheckBox) findViewById(R.id.check44);
             if (checkbox4.isChecked()) {
                 isChecked = String.valueOf(checkbox4.getText());
             }

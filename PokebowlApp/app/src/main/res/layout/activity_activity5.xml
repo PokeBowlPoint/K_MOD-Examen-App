@@ -91,109 +91,85 @@
 
                 <TableRow
                     android:paddingTop="15px">
+
                     <CheckBox
-                        android:id="@+id/check11"
+                        android:id="@+id/check41"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:enabled="false"
                         android:layout_gravity="center"
-                        android:textSize="20dp"/>
-
-                    <TextView
-                        android:layout_width="match_parent"
-                        android:layout_height="match_parent"
+                        android:clickable="true"
+                        android:enabled="true"
                         android:text="Soja boontjes"
-                        android:enabled="false"
-                        android:textSize="20dp"
-                        android:layout_gravity="start"/>
+                        android:textSize="20dp" />
+
                 </TableRow>
                 <TableRow
                     android:paddingTop="15px">
+
                     <CheckBox
-                        android:id="@+id/check12"
+                        android:id="@+id/check42"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:enabled="false"
                         android:layout_gravity="center"
-                        android:textSize="20dp"/>
-
-                    <TextView
-                        android:layout_width="match_parent"
-                        android:layout_height="match_parent"
+                        android:clickable="true"
+                        android:enabled="true"
                         android:text="Komkommer"
-                        android:enabled="false"
-                        android:textSize="20dp"
-                        android:layout_gravity="start"/>
+                        android:textSize="20dp" />
+
                 </TableRow>
                 <TableRow
                     android:paddingTop="15px">
+
                     <CheckBox
-                        android:id="@+id/check13"
+                        android:id="@+id/check43"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_gravity="center"
-                        android:enabled="false"
-                        android:textSize="20dp"/>
-
-                    <TextView
-                        android:layout_width="match_parent"
-                        android:layout_height="match_parent"
+                        android:clickable="true"
+                        android:enabled="true"
                         android:text="Geraspte wortel"
-                        android:enabled="false"
-                        android:textSize="20dp"
-                        android:layout_gravity="start"/>
+                        android:textSize="20dp" />
+
                 </TableRow>
                 <TableRow
                     android:paddingTop="15px">
+
                     <CheckBox
-                        android:id="@+id/check14"
+                        android:id="@+id/check44"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_gravity="center"
-                        android:enabled="false"
-                        android:textSize="20dp"/>
-
-                    <TextView
-                        android:layout_width="match_parent"
-                        android:layout_height="match_parent"
+                        android:clickable="true"
+                        android:enabled="true"
                         android:text="Gekookte bietjes"
-                        android:enabled="false"
-                        android:textSize="20dp"
-                        android:layout_gravity="start"/>
+                        android:textSize="20dp" />
+
                 </TableRow>
                 <TableRow
                     android:paddingTop="15px">
+
                     <CheckBox
-                        android:id="@+id/check15"
+                        android:id="@+id/check45"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_gravity="center"
-                        android:enabled="false"
-                        android:textSize="20dp"/>
-
-                    <TextView
-                        android:layout_width="match_parent"
-                        android:layout_height="match_parent"
+                        android:enabled="true"
                         android:text="Rode kool"
-                        android:enabled="false"
-                        android:textSize="20dp"
-                        android:layout_gravity="start"/>
+                        android:textSize="20dp" />
+
                 </TableRow>
                 <TableRow
                     android:paddingTop="15px">
+
                     <CheckBox
-                        android:id="@+id/check6"
+                        android:id="@+id/check46"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_gravity="center"
-                        android:textSize="20dp"/>
-
-                    <TextView
-                        android:layout_width="match_parent"
-                        android:layout_height="match_parent"
+                        android:clickable="true"
                         android:text="Avocado"
-                        android:textSize="20dp"
-                        android:layout_gravity="start"/>
+                        android:textSize="20dp" />
+
                 </TableRow>
 
                 <LinearLayout

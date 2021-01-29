@@ -2,11 +2,13 @@ package com.example.pokebowl;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.content.Context;
 import android.content.Intent;
 import android.content.SharedPreferences;
 import android.os.Bundle;
 import android.widget.Button;
 import android.widget.CheckBox;
+import android.widget.Toast;
 
 public class activity3 extends AppCompatActivity {
     public String isChecked;
@@ -39,10 +41,20 @@ public class activity3 extends AppCompatActivity {
             if (checkbox15.isChecked()) {
                 isChecked = String.valueOf(checkbox15.getText());
             }
+//            SharedPreferences pref = getApplicationContext().getSharedPreferences("MyPref", 0);
+//            SharedPreferences.Editor editor = pref.edit();
+//            editor.putString("Keuze 2", isChecked);
+//            editor.commit();
             SharedPreferences pref = getApplicationContext().getSharedPreferences("MyPref", 0);
-            SharedPreferences.Editor editor = pref.edit();
-            editor.putString("Keuze 2", isChecked);
-            editor.commit();
+            String chosenOpt = pref.getString("Keuze 1", null);
+
+
+            Context context = getApplicationContext();
+            CharSequence text = chosenOpt;
+            int duration = Toast.LENGTH_SHORT;
+
+            Toast toast = Toast.makeText(context, text, duration);
+            toast.show();
 
             Intent intent = new Intent(this, activity4.class);
 

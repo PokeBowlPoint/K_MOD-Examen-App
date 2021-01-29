@@ -17,13 +17,7 @@ public class winkelwagen extends AppCompatActivity {
         setContentView(R.layout.activity_winkelwagen);
         SharedPreferences pref = getApplicationContext().getSharedPreferences("MyPref", 0);
         String chosenOpt = pref.getString("Keuze 1", null);
-        SharedPreferences pref = getApplicationContext().getSharedPreferences("MyPref", 0);
-        chosenOpt = pref.getString("Keuze 2", null);
-        SharedPreferences pref = getApplicationContext().getSharedPreferences("MyPref", 0);
-        chosenOpt = pref.getString("Keuze 3", null);
-        SharedPreferences pref = getApplicationContext().getSharedPreferences("MyPref", 0);
-        chosenOpt = pref.getString("Keuze 4", null);
-
+        pref.getStringSet("keuze 1", null);
 
         Context context = getApplicationContext();
         CharSequence text = chosenOpt;
